@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reconstruindo o RS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header-container">
+    <img id="logo" src="imagens/imgLogo.png" alt="Descrição da imagem">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="quem-somos.html">Quem Somos</a></li>
+        <li><a href="como-doar.html">Como Doar</a></li>
+        <li><a style="color: black; font-weight: bold;" href="pontos-servico.html">Pontos de serviço</a></li>
+      </ul>
+    </nav>
+    <div class="hamburguer-menu" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <h2> Pontos de Servico</h2>
+    <!--Inicio card-->
+    
+      <div class="card">
+        <div class="card-header">
+          <h2>APAE IVOTI</h2>
+        </div>
+        <dialog>
+          <table class="tg">
+            <thead>
+              <tr>
+                <th id="boxImg" class="tg-0lax" colspan="2" rowspan="2">
+                  <img id="imagem" src="imagens/apaeIvoti.png" alt="Desc">
+                </th>
+                <th class="tg-0lax"></th>
+                <th class="tg-0lax" colspan="2">
+                  <h2 id="nomeInstituicao">ASSOCIAÇÃO DE PAIS E AMIGOS (APAE)</h2>
+                </th>
+              </tr>
+              <tr>
+                <th class="tg-0lax"></th>
+                <th class="tg-0lax" colspan="2">
+                  <p id="titulo">ESTÃO ACEITANDO DOAÇÃO DE:
+                  <p>
+                  <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                  <p>- Alimentos não-perecíveis</p>
+                  <p>- Itens de higiene pessoal</p>
+                  <p id="titulo">ESTÁ DISPONÍVEL PARA DOAÇÃO:
+                  <p>
+                  <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                  <p>- Alimentos não-perecíveis</p>
+                  <p>- Itens de higiene pessoal</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-0lax" colspan="2">
+                  <p id="titulo">LOCALIZAÇÃO:
+                  <p>
+                  <p>Rua Bento Gonçalves, 759 - Centro, Ivoti - RS</p>
+                  <p>CEP: 93900-000</p>
+                </td>
+                <td class="tg-0lax"></td>
+                <td class="tg-0lax" colspan="2">
+                  <p id="titulo">HORÁRIOS DE ATENDIMENTO:
+                  <p>
+                  <p>Segunda-feira: 09:00-19:00</p>
+                  <p>Terça-feira: 09:00-19:00</p>
+                  <p>Quarta-feira: 09:00-19:00</p>
+                  <p>Quinta-feira: 09:00-19:00</p>
+                  <p>Sexta-feira: 09:00-19:00</p>
+                  <p>Sábado: 09:00-19:00</p>
+                </td>
+              </tr>
+          </table>
+        <div class="overlay" id="overlay">
+          <div class="expanded-card" id="expandedCard">
+            <span class="close" onclick="closeExpandedCard()">X</span>
+            <div class="expanded-content">
+            </div>
+          </div>
+        </div>
+      </dialog>
+    </div>
+    <!--Inicio card 2-->
+    
+    <div class="card">
+      <div class="card-header">
+        <h2>APAE IVOTI</h2>
+      </div>
+      <dialog>
+        <table class="tg">
+          <thead>
+            <tr>
+              <th id="boxImg" class="tg-0lax" colspan="2" rowspan="2">
+                <img id="imagem" src="imagens/apaeIvoti.png" alt="Desc">
+              </th>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <h2 id="nomeInstituicao">ASSOCIAÇÃO DE PAIS E AMIGOS (APAE)</h2>
+              </th>
+            </tr>
+            <tr>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <p id="titulo">ESTÃO ACEITANDO DOAÇÃO DE:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+                <p id="titulo">ESTÁ DISPONÍVEL PARA DOAÇÃO:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">LOCALIZAÇÃO:
+                <p>
+                <p>Rua Bento Gonçalves, 759 - Centro, Ivoti - RS</p>
+                <p>CEP: 93900-000</p>
+              </td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">HORÁRIOS DE ATENDIMENTO:
+                <p>
+                <p>Segunda-feira: 09:00-19:00</p>
+                <p>Terça-feira: 09:00-19:00</p>
+                <p>Quarta-feira: 09:00-19:00</p>
+                <p>Quinta-feira: 09:00-19:00</p>
+                <p>Sexta-feira: 09:00-19:00</p>
+                <p>Sábado: 09:00-19:00</p>
+              </td>
+            </tr>
+        </table>
+      <div class="overlay" id="overlay">
+        <div class="expanded-card" id="expandedCard">
+          <span class="close" onclick="closeExpandedCard()">X</span>
+          <div class="expanded-content">
+          </div>
+        </div>
+      </div>
+    </dialog>
+  </div>
+    <!--Inicio card-->
+    <div class="card">
+      <div class="card-header">
+        <h2>APAE IVOTI</h2>
+      </div>
+      <div class="card-content">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th id="boxImg" class="tg-0lax" colspan="2" rowspan="2">
+                <img id="imagem" src="imagens/apaeIvoti.png" alt="Desc">
+              </th>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <h2 id="nomeInstituicao">ASSOCIAÇÃO DE PAIS E AMIGOS (APAE)</h2>
+              </th>
+            </tr>
+            <tr>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <p id="titulo">ESTÃO ACEITANDO DOAÇÃO DE:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+                <p id="titulo">ESTÁ DISPONÍVEL PARA DOAÇÃO:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">LOCALIZAÇÃO:
+                <p>
+                <p>Rua Bento Gonçalves, 759 - Centro, Ivoti - RS</p>
+                <p>CEP: 93900-000</p>
+              </td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">HORÁRIOS DE ATENDIMENTO:
+                <p>
+                <p>Segunda-feira: 09:00-19:00</p>
+                <p>Terça-feira: 09:00-19:00</p>
+                <p>Quarta-feira: 09:00-19:00</p>
+                <p>Quinta-feira: 09:00-19:00</p>
+                <p>Sexta-feira: 09:00-19:00</p>
+                <p>Sábado: 09:00-19:00</p>
+              </td>
+            </tr>
+        </table>
+      </div>
+    </div>
+    <div class="overlay" id="overlay">
+      <div class="expanded-card" id="expandedCard">
+        <span class="close" onclick="closeExpandedCard()">X</span>
+        <div class="expanded-content">
+        </div>
+      </div>
+    </div>
+    <!--Inicio card-->
+    <div class="card">
+      <div class="card-header">
+        <h2>APAE IVOTI</h2>
+      </div>
+      <div class="card-content">
+        <table class="tg">
+          <thead>
+            <tr>
+              <th id="boxImg" class="tg-0lax" colspan="2" rowspan="2">
+                <img id="imagem" src="imagens/apaeIvoti.png" alt="Desc">
+              </th>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <h2 id="nomeInstituicao">ASSOCIAÇÃO DE PAIS E AMIGOS (APAE)</h2>
+              </th>
+            </tr>
+            <tr>
+              <th class="tg-0lax"></th>
+              <th class="tg-0lax" colspan="2">
+                <p id="titulo">ESTÃO ACEITANDO DOAÇÃO DE:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+                <p id="titulo">ESTÁ DISPONÍVEL PARA DOAÇÃO:
+                <p>
+                <p>- Roupas (Casacos, camisetas, tênis...)</p>
+                <p>- Alimentos não-perecíveis</p>
+                <p>- Itens de higiene pessoal</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">LOCALIZAÇÃO:
+                <p>
+                <p>Rua Bento Gonçalves, 759 - Centro, Ivoti - RS</p>
+                <p>CEP: 93900-000</p>
+              </td>
+              <td class="tg-0lax"></td>
+              <td class="tg-0lax" colspan="2">
+                <p id="titulo">HORÁRIOS DE ATENDIMENTO:
+                <p>
+                <p>Segunda-feira: 09:00-19:00</p>
+                <p>Terça-feira: 09:00-19:00</p>
+                <p>Quarta-feira: 09:00-19:00</p>
+                <p>Quinta-feira: 09:00-19:00</p>
+                <p>Sexta-feira: 09:00-19:00</p>
+                <p>Sábado: 09:00-19:00</p>
+              </td>
+            </tr>
+        </table>
+      </div>
+    </div>
+    <div class="overlay" id="overlay">
+      <div class="expanded-card" id="expandedCard">
+        <span class="close" onclick="closeExpandedCard()">X</span>
+        <div class="expanded-content">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
